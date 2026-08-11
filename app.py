@@ -20,7 +20,7 @@ st.sidebar.markdown("Define your specific procurement scenario here.")
 
 # Make it universal: The user decides what they are buying!
 product_name = st.sidebar.text_input("What product are you procuring?", value="Lithium Batteries")
-total_demand = st.sidebar.number_input(f"Total {product_name} Needed:", min_value=1, value=1000)
+total_demand = st.sidebar.number_input(f"Total {product_name} Needed:", min_value=1, value=1000000)
 
 # ==========================================
 # 3. MAIN STAGE: DYNAMIC DATA ENTRY
